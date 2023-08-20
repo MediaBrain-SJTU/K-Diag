@@ -11,7 +11,7 @@ The official code for "K-Diag: Knowledge-enhanced Disease Diagnosis in Radiograp
 
 * In `Whole_dataset` dir we provide all split we used for experiments.
 
-* You can check `src/results/README.md` to download our model trained on CXR-Mix, for more model versions you may reproduce our training procedure on corresponding datasets.
+* You can check `src/results/README.md` to download our model trained on CXR-Mix. For more model versions you may reproduce our training procedure on corresponding datasets.
 
 ## Datasets:
 The download link of each dataset we used in paper is listed below:
