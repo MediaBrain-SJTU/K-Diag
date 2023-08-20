@@ -1,0 +1,1 @@
+Please Download the model checkpoint from https://pan.baidu.com/s/1Om-VROXJGRfvcxITAakkGg?pwd=e3tq. It is trained on CXR-Mix.

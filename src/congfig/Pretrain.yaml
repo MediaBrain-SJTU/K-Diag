@@ -1,6 +1,6 @@
-train_file: /mnt/petrelfs/wuchaoyi/class-to-text/Whole_dataset/train/
-valid_file: /mnt/petrelfs/wuchaoyi/class-to-text/Whole_dataset/valid/
-test_file: /mnt/petrelfs/wuchaoyi/class-to-text/Whole_dataset/test/
+train_file: ../Whole_dataset/train/
+valid_file: ../Whole_dataset/valid/
+test_file: ../class-to-text/Whole_dataset/test/
 
 mode: 'whole'
 Tokens: 64

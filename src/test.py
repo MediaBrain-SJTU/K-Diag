@@ -156,8 +156,8 @@ if __name__ == '__main__':
     Dataset_mode = 'PadChest'
     Model_mode = 'whole'
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', default='/mnt/petrelfs/wuchaoyi/class-to-text/TQN/congfig/Pretrain_'+ Dataset_mode+'_xmbert.yaml')
-    parser.add_argument('--checkpoint', default='/mnt/petrelfs/wuchaoyi/class-to-text/Results/Results_on_DBcloud/xmbert_prompt_' + Model_mode +'/checkpoint_81.pth') 
+    parser.add_argument('--config', default='./congfig/Pretrain.yaml')
+    parser.add_argument('--checkpoint', default='./Results/checkpoint.pth') 
     #parser.add_argument('--output_dir', default='/remote-home/chaoyiwu/classification_to_text/Results/xmbert_' + Dataset_mode)
     parser.add_argument('--device', default='cuda')
     parser.add_argument('--seed', default=42, type=int)

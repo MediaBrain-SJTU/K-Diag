@@ -1,0 +1,1 @@
+Please Download the pre-trained language model from https://pan.baidu.com/s/1d7rWue4p27zTC5IXP8Nurw?pwd=c9hj. It provides a better embedding space for medical terminology.

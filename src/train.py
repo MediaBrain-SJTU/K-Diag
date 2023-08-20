@@ -211,11 +211,11 @@ def main(args, config):
 
 
 if __name__ == '__main__':
-    Dataset_mode = 'MIMIC_CXR'
+    Dataset_mode = 'whole'
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', default='/mnt/petrelfs/wuchaoyi/class-to-text/TQN/congfig/Pretrain_'+ Dataset_mode+'_xmbert.yaml')
+    parser.add_argument('--config', default='./congfig/Pretrain.yaml')
     parser.add_argument('--checkpoint', default='') 
-    parser.add_argument('--output_dir', default='/mnt/petrelfs/wuchaoyi/class-to-text/ResultSSSSSs/xmbert_prompt_' + Dataset_mode +'/seed_44')
+    parser.add_argument('--output_dir', default='./Results/')
     parser.add_argument('--device', default='cuda')
     parser.add_argument('--seed', default=44, type=int)
     parser.add_argument('--gpu', type=str,default='0', help='gpu')
